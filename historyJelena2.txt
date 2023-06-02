@@ -1,0 +1,16 @@
+   0 cd /home
+   1 mkdir -p user/start
+   2 touch user/start/1.txt
+   3 tree
+   4 echo "Start" >> user/start/1.txt
+   5 date +'%D' >> user/start/1.txt
+   6 cat user/start/1.txt
+   7 cd /opt
+   8 mkdir task
+   9 cp /home/user/start/1.txt /opt/task/start.txt
+  10 cat task/start.txt
+  11 ls -a / | tail -4
+  12 ls -a / | tail -4 >> /opt/task/start.txt
+  13 cat /opt/task/start.txt
+  14 history
+  15 history > /tmp/historyJelena.txt
